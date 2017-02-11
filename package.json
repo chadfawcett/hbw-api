@@ -1,0 +1,22 @@
+{
+  "name": "hbwatch-api",
+  "version": "1.0.0",
+  "description": "API endpoint for detecting stuff",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadfawcett/hbw-api.git"
+  },
+  "author": "Chad Fawcett <me@chadf.ca>",
+  "bugs": {
+    "url": "https://github.com/chadfawcett/hbw-api/issues"
+  },
+  "homepage": "https://github.com/chadfawcett/hbw-api#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "watson-developer-cloud": "^2.18.0"
+  }
+}
